@@ -15,7 +15,8 @@ function App() {
 
     const options = {
       method: 'GET',
-      url: 'http://localhost:5000/api',
+      // url: 'http://localhost:5000/api',
+      url: 'https://react-summarizer-8gzl.onrender.com/api',
       params: {
         url: url,
         length: '1'
